@@ -15,4 +15,16 @@ class PageController extends AbstractController
             'controller_name' => 'PageController',
         ]);
     }
+
+    #[Route('/projects', name: 'projects_page')]
+    public function showProjectsPage(): Response
+    {
+        return $this->render('page/projects.html.twig');
+    }
+
+    #[Route('/project/{id}', name: 'projects_page')]
+    public function showProjectPage(): Response
+    {
+        return $this->render('page/project.html.twig');
+    }
 }

@@ -1,20 +1,28 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello PageController!{% endblock %}
+{% block title %}
+    <title>Qui suis-je ?</title>
+{% endblock %}
 
-{% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+{% block main %}
+    <section class="home-section">
+        <h1 class="page-title">Qui suis-je ?</h1>
+        <div class="boxes">
+            <div class="picture"></div>
+            <article class="presentation">
+                <h2 class="box-title">Petite Bio</h2>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+                <p class="box-content">Lorem ipsum dolor sit amet consectetur adipiscing elit mauris arcu sodales eu,
+                    augue curabitur laoreet odio sociosqu molestie quam montes tempor aliquet, nulla rutrum orci condimentum eros inceptos parturient in non turpis. Libero ac diam curae penatibus ligula vel est maecenas mus,
+                    molestie duis risus dictum consequat lacus ante cras pellentesque, primis sollicitudin ad nostra pretium blandit sodales nisl. Aliquet ornare viverra et sem massa metus phasellus posuere, rutrum sollicitudin himenaeos lobortis sed pulvinar potenti, egestas ultrices gravida ligula euismod erat donec.
+                    Erat feugiat sapien sodales tristique habitant ut neque, quis nulla sed ac suscipit interdum aliquam per, praesent mattis condimentum blandit vitae penatibus. Tristique dapibus nostra libero venenatis mi nullam vestibulum, rutrum sapien lectus et sociosqu nec etiam dictum, ligula habitant blandit aptent ad purus.
+                    Aliquam ultricies viverra cubilia magnis sociosqu netus augue, non nunc dis fames suscipit phasellus sem fusce, vestibulum convallis luctus nulla ullamcorper metus. Dis tristique nisl lectus purus nascetur nullam eleifend volutpat donec, viverra posuere velit ultricies nulla penatibus condimentum class, accumsan elementum enim euismod aliquet habitasse blandit imperdiet.
+                    Faucibus tristique risus feugiat ultrices egestas nascetur parturient nisi nam, habitant fusce primis vehicula pretium etiam in neque erat augue, phasellus mi id odio sed tincidunt nisl et. Sociis lectus egestas porttitor suscipit mus dis
+                    venenatis, vehicula felis et nunc volutpat magnis, aptent imperdiet senectus penatibus velit sed.
+                </p>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/MAMP/htdocs/portfolio/src/Controller/PageController.php'|file_link(0) }}">src/Controller/PageController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/MAMP/htdocs/portfolio/templates/page/index.html.twig'|file_link(0) }}">templates/page/index.html.twig</a></code></li>
-    </ul>
-</div>
+            </article>
+        </div>
+    </section>
+
 {% endblock %}

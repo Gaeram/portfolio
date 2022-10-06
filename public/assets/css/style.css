@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title {
+  text-align: center;
+  padding-top: 3vh;
+  font-family: "Roboto Bold";
+  font-size: 1.5rem;
+}
+
+/* Fonts */
+/* Colors */
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("/../portfolio/public/assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("/../portfolio/public/assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto Thin";
+  src: url("/../portfolio/public/assets/fonts/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("/../portfolio/public/assets/fonts/Roboto-Italic.ttf");
+}
+header {
+  background-color: #F5F5F5;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+}
+header .head-title {
+  margin-top: 3.5vh;
+  margin-left: 2vh;
+  font-size: 1rem;
+  font-family: "Roboto Bold";
+}
+header .nav-toggler {
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+header .line {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+}
+header .l1 {
+  transform: translateY(-10px);
+}
+header .l3 {
+  transform: translateY(10px);
+}
+header .nav-toggler.active .l1 {
+  transform: translateY(0px) rotate(135deg);
+}
+header .nav-toggler.active .l2 {
+  opacity: 0;
+}
+header .nav-toggler.active .l3 {
+  transform: translateY(0px) rotate(-135deg);
+}
+header nav {
+  position: fixed;
+  width: 50vw;
+  min-height: 100vh;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #F5F5F5;
+  border-left: 1px solid #000000;
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
+}
+header nav.active {
+  transform: translate(0);
+}
+header nav a {
+  font-family: Quicksand, sans-serif;
+  color: #000000;
+  font-size: 20px;
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.home-section {
+  width: 100vw;
+  height: 80vh;
+  background-image: url("/../portfolio/public/assets/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.home-section .page-title {
+  font-size: 2rem;
+  color: #F5F5F5;
+  text-align: center;
+  padding-top: 2vh;
+  font-family: "Roboto Bold";
+}
+.home-section .boxes {
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.home-section .picture {
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  background-image: url("/../portfolio/public/assets/images/photo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.home-section .presentation {
+  height: 500px;
+  width: 500px;
+  background-color: #AAA3A3;
+  border-radius: 5px;
+}
+.home-section .box-content {
+  font-size: 0.9rem;
+  font-family: "Roboto Regular";
+  padding-top: 2vh;
+  padding: 2vh;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #AAA3A3;
+}
+footer .footer-info {
+  padding: 3.5vh;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Roboto Thin";
+}
+
+/*# sourceMappingURL=style.css.map */

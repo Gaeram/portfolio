@@ -1,0 +1,46 @@
+.home-section {
+  width: 100vw;
+  height: 80vh;
+  background-image: url("/../portfolio/public/assets/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+
+  .page-title {
+    font-size: 2rem;
+    color: $primary-color;
+    text-align: center;
+    padding-top: 2vh;
+    font-family: "Roboto Bold";
+  }
+
+  .boxes {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .picture {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    background-image: url("/../portfolio/public/assets/images/photo.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .presentation {
+    height: 500px;
+    width: 500px;
+    background-color: $third-color;
+    border-radius: 5px;
+  }
+
+  .box-content {
+    font-size: 0.9rem;
+    font-family: "Roboto Regular";
+    padding-top: 2vh;
+    padding: 2vh;
+  }
+}
+

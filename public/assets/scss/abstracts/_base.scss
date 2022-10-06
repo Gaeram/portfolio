@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title {
+  text-align: center;
+  padding-top: 3vh;
+  font-family: "Roboto Bold";
+  font-size: 1.5rem;
+}
