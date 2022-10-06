@@ -1,1 +1,30 @@
 {% extends 'base.html.twig' %}
+
+{% block title %}
+    <title>Me contacter</title>
+{% endblock %}
+
+{% block main %}
+    <section class="home-section">
+        <h1 class="page-title">Me Contacter</h1>
+        <h2 class="subtitle">M'écrire et où me suivre</h2>
+
+        <div class="contact-box">
+            <div class="social-boxes">
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/ga%C3%ABtan-ramillon-3752581b9/"><img src="{{ asset("assets/images/linkedin.png") }}"></a>
+                    <p class="annotation">Mon compte LinkedIn afin de suivre mes activités professionnelles...</p>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/Gaeram"><img src="{{ asset("assets/images/github.png") }}"></a>
+                    <p class="annotation">Mon compte GitHub pour un accès aux codes de mes projets et ainsi avoir une vue du plan technique...</p>
+                </div>
+            </div>
+            <div class="mail-form">
+
+            </div>
+        </div>
+
+    </section>
+
+{% endblock %}
