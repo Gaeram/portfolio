@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a44162-a9ba-4815-b415-4f6b4ca05479" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ProjectCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ProjectCrudController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +179,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -214,7 +216,18 @@
       <workItem from="1665495224546" duration="6627000" />
       <workItem from="1665506746985" duration="409000" />
       <workItem from="1665660176037" duration="1141000" />
-      <workItem from="1666028288842" duration="2329000" />
+      <workItem from="1666028288842" duration="3515000" />
+      <workItem from="1668877219828" duration="33000" />
+      <workItem from="1669291871555" duration="205000" />
+      <workItem from="1669293124446" duration="75000" />
+      <workItem from="1669626709335" duration="232000" />
+      <workItem from="1669712182328" duration="59000" />
+      <workItem from="1670584337885" duration="1046000" />
+      <workItem from="1671027004078" duration="239000" />
+      <workItem from="1671029643294" duration="601000" />
+      <workItem from="1671030257944" duration="88000" />
+      <workItem from="1671030522893" duration="197000" />
+      <workItem from="1671030728292" duration="1466000" />
     </task>
     <servers />
   </component>
@@ -231,5 +244,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
